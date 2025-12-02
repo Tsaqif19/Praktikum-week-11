@@ -60,6 +60,7 @@ def ubah(nama):
     }
     print("Data berhasil diubah!")
 # Fungsi untuk menambah data 
+
 def hapus(nama):
     if nama in data_mahasiswa:
         del data_mahasiswa[nama]
@@ -86,4 +87,5 @@ while True:
         print("Terimakasih sudah menggunakan program ini")
         break
     else:
+
         print("Pilihan tidak sesuai")
